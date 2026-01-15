@@ -1,0 +1,18 @@
+[project]
+name = "tft-strategy"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas",
+  "numpy",
+  "pyarrow",
+  "scikit-learn",
+  "matplotlib",
+  "python-dotenv",
+  "riotwatcher",
+  "tqdm",
+  "requests",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
